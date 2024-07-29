@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-scrapy"
+version = "0.1.0"
+description = "Webscraping toscrape pages"
+authors = ["AlekysCoelho <alekyscoelho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.11.2"
+scrapy-playwright = "^0.0.40"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
